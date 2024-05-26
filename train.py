@@ -15,7 +15,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 # from xgboost import XGBRegressor as XGBRegrwssor
 
 ########## READING FILES #########
-train = pd.read_csv(path +'/airqo-train.csv')
+train = pd.read_csv('/airqo-train.csv')
 print(train.shape)
 
 ########### PREPROCESSING. #########
