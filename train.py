@@ -88,8 +88,8 @@ print('valid error:', mean_squared_error(yvalid, valid_pred, squared=False))
 
 
 sns.scatterplot(y=ytrain, x=regr_pred, hue=xtrain['regions_Eastern'])
-plt.figsave('train_residual.png')
+plt.savefig('train_residual.png')
 
 sns.scatterplot(y=yvalid, x=valid_pred, hue=xvalid['regions_Eastern'],
              style=xvalid['month_2'])
-plt.figsave('valid_residuals.png')
+plt.savefig('valid_residuals.png')
