@@ -3,5 +3,5 @@ numpy
 seaborn
 matplotlib
 sklearn
-xgboost
+scikit-learn
 lightgbm
